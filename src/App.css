@@ -1,0 +1,288 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.bgs {
+  background: #475569;
+}
+
+.bg-container {
+  padding-top: 0px;
+  background-color: #fff;
+  display: none;
+}
+
+.bg-containers {
+  padding-top: 0px;
+  display: none;
+  position: absolute;
+  background: #fff;
+  width: 100%;
+  left: 0px;
+  top: 3;
+}
+
+.bg {
+  padding: 0px;
+  height: 14vh;
+  width: 100%;
+  background-color: #ffff;
+  padding-top: 0px;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.heading {
+  font-size: 20px;
+  margin-left: 15px;
+  font-family: Times New Roman;
+}
+
+.m1 {
+  height: 30px;
+  width: 30px;
+  margin-left: 10px;
+  margin-right: 10px;
+  display: none;
+}
+
+.m3 {
+  height: 30px;
+  width: 30px;
+  margin-left: 10px;
+  margin-right: 10px;
+  display: block;
+}
+
+.m2 {
+  height: 60px;
+  width: 100px;
+  margin-left: 10px;
+}
+
+.bg {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 12vh;
+}
+
+.head {
+  font-size: 20px;
+  color: #fff;
+  font-family: Roboto;
+  margin-left: 20px;
+  height: 0px;
+}
+
+.para {
+  color: #fff;
+  font-size: 15px;
+  margin-left: 20px;
+}
+
+.heads {
+  font-size: 20px;
+
+  font-family: Roboto;
+}
+
+.paras {
+  font-size: 15px;
+}
+
+.Pizza {
+  height: 150px;
+  width: 150px;
+  border-top-right-radius: 45px;
+}
+
+.gap-1 {
+  padding: 10px;
+  background: #fff;
+  width: 200px;
+  border-top-right-radius: 55px;
+  border-bottom-left-radius: 55px;
+  text-align: center;
+  margin: 10px;
+}
+
+@media (min-width: 768px) {
+  .m2 {
+    height: 80px;
+    width: 150px;
+    margin-left: 10px;
+  }
+
+  .gap-1 {
+    padding: 8px;
+    background: #fff;
+    width: 250px;
+    border-top-right-radius: 65px;
+    border-bottom-left-radius: 65px;
+    text-align: center;
+  }
+
+  .bg-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .bg-containers {
+    padding-top: 0px;
+    display: none;
+  }
+
+  .bg {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  .heading {
+    font-size: 20px;
+    margin-left: 15px;
+    font-family: Times New Roman;
+  }
+
+  .m3 {
+    display: none;
+  }
+
+  .m1 {
+    display: block;
+  }
+
+  .head {
+    font-size: 35px;
+    color: #fff;
+    font-family: Roboto;
+    margin-left: 20px;
+    height: 0px;
+  }
+
+  .para {
+    color: #fff;
+    font-size: 20px;
+    margin-left: 20px;
+  }
+
+  .head {
+    font-size: 35px;
+
+    font-family: Roboto;
+  }
+
+  .para {
+    font-size: 20px;
+  }
+
+  .Pizza {
+    height: 250px;
+    width: 250px;
+    border-top-right-radius: 60px;
+  }
+}
+
+.img-conatiner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media (max-width: 768px) {
+  .bg .img-conatiner .bar:hover .bg-containers {
+    display: block;
+  }
+}
+
+.bg .img-conatiner .bar .bg-containers .heading:hover {
+  color: red;
+  width: 100%;
+}
+
+.Food-container {
+  background-image: linear-gradient(to right, #f772cd, #f7f736);
+  height: 60vh;
+  margin-bottom: 10px;
+}
+
+.Food-sub {
+  background-image: url('https://images.unsplash.com/photo-1504674900247-0877df9cc836?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDE1fHx8ZW58MHx8fHx8&w=1000&q=80');
+  background-size: cover;
+  height: 90%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.min-sub {
+  height: 20vh;
+  width: 50vw;
+  background-color: rgba(234, 131, 87, 0.72);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 30px;
+}
+
+.order {
+  text-align: center;
+  margin-top: 10px;
+  font-size: 40px;
+  color: #fff;
+  font-family: Roboto;
+}
+
+.grapic-conatiner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.Food-containers {
+  background-image: linear-gradient(to right, #f772cd, #f7f736);
+  padding: 10px;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.btn {
+  height: 60px;
+  width: 180px;
+  font-size: 25px;
+  font-weight: 600;
+  border: 0px;
+  border-radius: 40px;
+  margin-top: 20px;
+}
+
+@media (max-width: 575px) {
+  .head {
+    font-size: 10px;
+    color: #fff;
+    font-family: Roboto;
+    margin-left: 20px;
+    height: 0px;
+  }
+
+  .para {
+    color: #fff;
+    font-size: 10px;
+    margin-left: 20px;
+  }
+}
